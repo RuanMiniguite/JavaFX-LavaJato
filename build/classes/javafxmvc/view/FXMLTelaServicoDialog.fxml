@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane fx:id="ScrollPane" prefHeight="563.0" prefWidth="434.0" stylesheets="@Tema_dark.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxmvc.controller.FXMLTelaServicoDialogController">
+   <content>
+      <AnchorPane id="AnchorPane" cache="true" prefHeight="880.0" prefWidth="419.0" snapToPixel="false" stylesheets="@Tema_dark.css">
+         <children>
+            <Label fx:id="tituloS" alignment="CENTER" contentDisplay="CENTER" layoutX="20.0" layoutY="-4.0" prefHeight="37.0" prefWidth="383.0" text="Serviço" textAlignment="CENTER" textOverrun="CLIP" wrapText="true" AnchorPane.topAnchor="-4.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Group layoutX="276.0" layoutY="721.0" />
+            <TableView fx:id="tableViewServico" editable="true" layoutX="41.0" layoutY="266.0" prefHeight="130.0" prefWidth="340.0">
+              <columns>
+                <TableColumn fx:id="tableColumnTipoServicoL" prefWidth="214.0" text="Tipo de Serviço" />
+                <TableColumn fx:id="tableColumnqtdL" minWidth="0.0" prefWidth="71.0" text="Quantidade" />
+                  <TableColumn fx:id="tableColumnPrecoL" minWidth="0.0" prefWidth="54.0" text="Preço" />
+              </columns>
+            </TableView>
+            <TableView fx:id="tableViewProduto" layoutX="40.0" layoutY="543.0" prefHeight="130.0" prefWidth="340.0">
+               <columns>
+                  <TableColumn fx:id="tableColumnProduto" prefWidth="212.0" text="Produto" />
+                  <TableColumn fx:id="tableColumnQuantidadeP" prefWidth="73.0" text="Quantidade" />
+                  <TableColumn fx:id="tableColumnPrecoP" prefWidth="54.0" text="Preço" />
+               </columns>
+            </TableView>
+            <Group layoutX="209.0" layoutY="627.0" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="15.0">
+               <children>
+                  <Button fx:id="buttonCancelar" mnemonicParsing="false" onAction="#buttonCancelarS" prefHeight="25.0" prefWidth="70.0" text="Cancelar" />
+                  <Button fx:id="buttonConfirmar" layoutX="77.0" mnemonicParsing="false" onAction="#buttonConfirmarS" text="Confirmar" />
+               </children>
+            </Group>
+            <Group layoutX="69.0" layoutY="196.0">
+               <children>
+                  <Button fx:id="buttonMaisL" layoutX="237.0" layoutY="37.0" mnemonicParsing="false" onAction="#buttonAdicionarServico" prefHeight="25.0" prefWidth="43.0" text="+" />
+                  <Label layoutX="173.0" layoutY="41.0" text="Adicionar:">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="3.0" layoutY="5.0" text="Tipo Serviço:">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="comboBoxSTipoServico" layoutX="100.0" prefHeight="27.0" prefWidth="180.0" />
+                  <Label layoutX="3.0" layoutY="41.0" prefHeight="17.0" prefWidth="82.0" text="Quantidade:">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="textFieldSqtdServicoL" layoutX="100.0" layoutY="37.0" prefHeight="25.0" prefWidth="55.0" />
+               </children>
+            </Group>
+            <Group layoutX="71.0" layoutY="474.0">
+               <children>
+                  <ComboBox fx:id="comboBoxSTipoProduto" layoutX="98.0" prefHeight="27.0" prefWidth="180.0" />
+                  <Label layoutY="5.0" text="Produtos:">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="textFieldSqtdProduto" layoutX="98.0" layoutY="37.0" prefHeight="25.0" prefWidth="55.0" />
+                  <Button fx:id="buttonMaisP" layoutX="235.0" layoutY="37.0" mnemonicParsing="false" onAction="#buttonAdicionarProduto" prefHeight="25.0" prefWidth="43.0" text="+" />
+                  <Label layoutY="41.0" prefHeight="17.0" prefWidth="82.0" text="Quantidade:">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="166.0" layoutY="41.0" text="Adicionar:">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Group>
+            <Group layoutX="45.0" layoutY="751.0">
+               <children>
+                  <Label layoutX="-8.0" layoutY="-9.0" text="Valor Total:">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="textFieldSValorTotal" layoutX="92.0" layoutY="-12.0" prefHeight="25.0" prefWidth="88.0" />
+               </children>
+            </Group>
+            <Button fx:id="buttonMenosL" layoutX="284.0" layoutY="410.0" mnemonicParsing="false" onAction="#buttonRemoverLavagem" prefHeight="25.0" prefWidth="43.0" text="-" />
+            <Label layoutX="72.0" layoutY="412.0" prefHeight="24.0" prefWidth="189.0" text="Selecione um item para remover:" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Group layoutX="71.0" layoutY="81.0">
+               <children>
+                  <Label layoutX="2.0" layoutY="-22.0" text="Cliente:">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="comboBoxSCliente" layoutX="99.0" layoutY="-27.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="27.0" prefWidth="180.0" />
+                  <Label layoutX="-1.0" layoutY="56.0" text="Data:">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <DatePicker fx:id="datePickerSData" layoutX="99.0" layoutY="52.0" prefHeight="25.0" prefWidth="180.0" />
+                  <ComboBox fx:id="comboBoxSFuncionario" layoutX="99.0" layoutY="12.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="27.0" prefWidth="180.0" />
+                  <Label layoutY="18.0" text="Funcionario:">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Group>
+            <Label layoutX="74.0" layoutY="673.0" prefHeight="37.0" prefWidth="193.0" text="Selecione um item para remover:" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Button fx:id="buttonMenosP" layoutX="283.0" layoutY="678.0" mnemonicParsing="false" onAction="#buttonRemoverProduto" prefHeight="25.0" prefWidth="43.0" text="-" />
+            <Group layoutX="57.0" layoutY="737.0" />
+            <Group layoutX="45.0" layoutY="772.0">
+               <children>
+                  <Label layoutX="-8.0" layoutY="4.0" text="Valor Desconto:">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="textFieldSValorDesconto" layoutX="92.0" prefHeight="25.0" prefWidth="88.0" />
+               </children>
+            </Group>
+            <Group layoutX="27.0" layoutY="804.0">
+               <children>
+                  <Label layoutX="9.0" layoutY="4.0" text="Valor Pagar:">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="textFieldSValorPagar" layoutX="110.0" prefHeight="25.0" prefWidth="88.0" />
+               </children>
+            </Group>
+            <Group layoutX="309.0" layoutY="794.0">
+               <children>
+                  <Label layoutX="-8.0" layoutY="-13.0" text="Pago:">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <CheckBox fx:id="CheckBoxPago" layoutX="31.0" layoutY="-13.0" mnemonicParsing="false" />
+               </children>
+            </Group>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>

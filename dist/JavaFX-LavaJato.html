@@ -1,0 +1,48 @@
+<html><head>
+  <SCRIPT src="./web-files/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'JavaFX-LavaJato.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iSmF2YUZYLUxhdmFKYXRvLmpubHAiPg0KICA8aW5mb3JtYXRpb24+DQogICAgPHRpdGxlPkphdmFGWC1MYXZhSmF0bzwvdGl0bGU+DQogICAgPHZlbmRvcj5SYWZhZWw8L3ZlbmRvcj4NCiAgICA8ZGVzY3JpcHRpb24+bnVsbDwvZGVzY3JpcHRpb24+DQogICAgPG9mZmxpbmUtYWxsb3dlZC8+DQogIDwvaW5mb3JtYXRpb24+DQogIDxyZXNvdXJjZXM+DQogICAgPGoyc2UgdmVyc2lvbj0iMS42KyIgaHJlZj0iaHR0cDovL2phdmEuc3VuLmNvbS9wcm9kdWN0cy9hdXRvZGwvajJzZSIvPg0KICAgIDxqYXIgaHJlZj0iSmF2YUZYLUxhdmFKYXRvLmphciIgc2l6ZT0iMTMzMTUwIiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcYXNtLTMuMi5qYXIiIHNpemU9IjQzNDAxIiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcY29tbW9ucy1iZWFudXRpbHMtMS44LjMuamFyIiBzaXplPSIyMzIwMTkiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxjb21tb25zLWNvbGxlY3Rpb25zLTMuMi4xLmphciIgc2l6ZT0iNTc1Mzg5IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcY29tbW9ucy1kaWdlc3Rlci0xLjguamFyIiBzaXplPSIxNDM2MDIiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxjb21tb25zLWxvZ2dpbmctMS4xLjEuamFyIiBzaXplPSI2MDg0MSIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGdyb292eS0xLjcuMi5qYXIiIHNpemU9IjQ2Njk0MjYiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxpVGV4dC0yLjEuNy5qYXIiIHNpemU9IjExMzAwNzAiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxqYXNwZXJyZXBvcnRzLTYuMy4xLmphciIgc2l6ZT0iNTUyNzgyOSIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGphc3BlcnJlcG9ydHMtZm9udHMtNi4zLjEuamFyIiBzaXplPSIyNDc4MDk3IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcamFzcGVycmVwb3J0cy1qYXZhZmxvdy02LjMuMS5qYXIiIHNpemU9IjU1ODgwNzEiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxwb2ktMy42LTIwMDkxMjE0LmphciIgc2l6ZT0iMTUzOTI5MSIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXHBvc3RncmVzcWwtOS40LjEyMDkuamFyIiBzaXplPSI2NzgwNDkiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgPC9yZXNvdXJjZXM+DQogIDxhcHBsaWNhdGlvbi1kZXNjIG1haW4tY2xhc3M9ImphdmFmeG12Yy5NYWluIiAgbmFtZT0iSmF2YUZYLUxhdmFKYXRvIiA+DQogIDwvYXBwbGljYXRpb24tZGVzYz4NCiAgPHVwZGF0ZSBjaGVjaz0iYWx3YXlzIi8+DQo8L2pubHA+DQo='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedjavafxmvc() {
+        dtjava.embed(
+            {
+                id : 'javafxmvc',
+                toolkit : 'swing',
+                url : 'JavaFX-LavaJato_browser.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iSmF2YUZYLUxhdmFKYXRvX2Jyb3dzZXIuam5scCI+DQogIDxpbmZvcm1hdGlvbj4NCiAgICA8dGl0bGU+SmF2YUZYLUxhdmFKYXRvPC90aXRsZT4NCiAgICA8dmVuZG9yPlJhZmFlbDwvdmVuZG9yPg0KICAgIDxkZXNjcmlwdGlvbj5udWxsPC9kZXNjcmlwdGlvbj4NCiAgICA8b2ZmbGluZS1hbGxvd2VkLz4NCiAgPC9pbmZvcm1hdGlvbj4NCiAgPHJlc291cmNlcz4NCiAgICA8ajJzZSB2ZXJzaW9uPSIxLjYrIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+DQogICAgPGphciBocmVmPSJKYXZhRlgtTGF2YUphdG8uamFyIiBzaXplPSIxMzMxNTAiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxhc20tMy4yLmphciIgc2l6ZT0iNDM0MDEiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxjb21tb25zLWJlYW51dGlscy0xLjguMy5qYXIiIHNpemU9IjIzMjAxOSIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGNvbW1vbnMtY29sbGVjdGlvbnMtMy4yLjEuamFyIiBzaXplPSI1NzUzODkiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxjb21tb25zLWRpZ2VzdGVyLTEuOC5qYXIiIHNpemU9IjE0MzYwMiIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGNvbW1vbnMtbG9nZ2luZy0xLjEuMS5qYXIiIHNpemU9IjYwODQxIiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcZ3Jvb3Z5LTEuNy4yLmphciIgc2l6ZT0iNDY2OTQyNiIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGlUZXh0LTIuMS43LmphciIgc2l6ZT0iMTEzMDA3MCIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGphc3BlcnJlcG9ydHMtNi4zLjEuamFyIiBzaXplPSI1NTI3ODI5IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcamFzcGVycmVwb3J0cy1mb250cy02LjMuMS5qYXIiIHNpemU9IjI0NzgwOTciIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxqYXNwZXJyZXBvcnRzLWphdmFmbG93LTYuMy4xLmphciIgc2l6ZT0iNTU4ODA3MSIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXHBvaS0zLjYtMjAwOTEyMTQuamFyIiBzaXplPSIxNTM5MjkxIiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJccG9zdGdyZXNxbC05LjQuMTIwOS5qYXIiIHNpemU9IjY3ODA0OSIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICA8L3Jlc291cmNlcz4NCiAgPGFwcGxldC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0iamF2YWZ4bXZjLk1haW4iICBuYW1lPSJKYXZhRlgtTGF2YUphdG8iID4NCiAgPC9hcHBsZXQtZGVzYz4NCiAgPHVwZGF0ZSBjaGVjaz0iYWx3YXlzIi8+DQo8L2pubHA+DQo='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {
+                onGetSplash : function() {}
+            }
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedjavafxmvc);
+</script>
+
+</head><body>
+<h2>Test page for <b>JavaFX-LavaJato</b></h2>
+  <b>Webstart:</b> <a href='JavaFX-LavaJato.jnlp' onclick="return launchApplication('JavaFX-LavaJato.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>

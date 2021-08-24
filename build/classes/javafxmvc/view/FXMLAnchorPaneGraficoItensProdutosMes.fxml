@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="585.0" prefWidth="810.0" stylesheets="@Tema_dark.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxmvc.controller.FXMLAnchorPaneGraficoItensProdutosMesController">
+   <children>
+      <LineChart fx:id="lineChart2" layoutX="74.0" layoutY="53.0" prefHeight="479.0" prefWidth="663.0" title="Produtos Usados - Ano">
+        <xAxis>
+          <CategoryAxis fx:id="categoryAxis" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="numberAxis" side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <ComboBox fx:id="comboBoxGAno" layoutX="560.0" layoutY="59.0" prefHeight="27.0" prefWidth="91.0" />
+      <Button fx:id="ButtonFilter" layoutX="673.0" layoutY="59.0" mnemonicParsing="false" onAction="#setGrafico" text="Filtrar" />
+   </children>
+</AnchorPane>
