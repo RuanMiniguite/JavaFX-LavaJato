@@ -6,11 +6,14 @@
 - Luiz Henrique Cabral Zanella
 - Luan Eiriz Masioli
 
-## TEMA: Sistema para Gerenciar Lava Jato
+<br>
 
+#### TEMA 
 
-## Manutenção de cadastro: (CRUD) Funcionário
+###### Sistema para Gerenciar Lava Jato
 
-## Processo de negócio: Serviço de lavagem de veículos
+###### Manutenção de cadastro: (CRUD) Funcionário
 
-## Regra de Negócio: Verificar se o cliente já realizou um serviço nos ultimos 30 dias e foi pago, caso já, recebe um desconto de 10% no serviço atual.
+###### Processo de negócio: Serviço de lavagem de veículos
+
+###### Regra de Negócio: Verificar se o cliente já realizou um serviço nos ultimos 30 dias e foi pago, caso já, recebe um desconto de 10% no serviço atual.
