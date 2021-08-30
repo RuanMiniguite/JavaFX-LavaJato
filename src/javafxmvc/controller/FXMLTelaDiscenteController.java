@@ -36,9 +36,9 @@ public class FXMLTelaDiscenteController implements Initializable {
             ObjectInputStream entrada = new ObjectInputStream(socketin.getInputStream());
             listNome = (List<String>) entrada.readObject();
             
-            listNome.forEach((string) -> {
-                System.out.println(string);
-            });
+//            listNome.forEach((string) -> {;;
+//                System.out.println(string);
+//            });
                               
             ThreadSocket threadzin = new ThreadSocket(LabelNome,listNome);
             Thread thread = new Thread(threadzin);
