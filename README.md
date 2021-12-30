@@ -95,15 +95,15 @@
 
 <!-- ============== LANGUAGE ============== -->
 ## Language and tools
-###### Front end
+
+<h4>Front end</h4>
 
  <ol>
     <li>JavaFXML</li>
     <li>Scene builder</li>
   </ol>
 
-###### Back end
-
+<h4>Back end</h4>
  <ol>
     <li>Java</li>
     <li>SQL</li>
@@ -121,7 +121,7 @@
 <!-- ============== INSTALLATION ============== -->
 ## Installation
 
-###### Requirements
+<h4>Requirements</h4>
 
 <ol>
   <li>Install Java 8.2</li>
