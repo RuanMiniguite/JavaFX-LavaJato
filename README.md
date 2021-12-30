@@ -10,7 +10,7 @@
   <a href="https://cachoeiro.ifes.edu.br/">
     <img src="https://media.discordapp.net/attachments/925719560039043083/925751679519981578/ifes_vila-velha-horizontal-pb.png?width=953&height=294" alt="Logo" width="330">
   </a>
-  <h3 align="center">Template Readme IFES</h3>
+  <h3 align="center">JavaFX-LavaJato</h3>
   <p align="center">
     Car Wash Management System
   </p>
