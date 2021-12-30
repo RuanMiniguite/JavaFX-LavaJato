@@ -153,7 +153,7 @@ Ruan Pezzin Miniguite <br> ruanminiguitecontato@gmail.com
 <!-- ============== LINKs ============== -->
 <!-- Alterar link -->
 [Site-link]: https://github.com/RuanMiniguite/JavaFX-LavaJato
-[GitHub License-link]: https://github.com/RuanMiniguite/Template-Readme/blob/fe381e528da59c829814c405ef7287b10a1a15ab/LICENSE
+[GitHub License-link]: https://github.com/RuanMiniguite/JavaFX-LavaJato/blob/cd29317bcd9d5f7f82c846f8c5fc3aacbaa38580/LICENSE
 
 
 <!-- Alterar caminho para repositorio [Template-Readme] -->
