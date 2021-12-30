@@ -60,7 +60,7 @@
   [![Site][Site-shields]][Site-link]
 </div> -->
 
-<h5>Group</h5>
+<h4>Group</h4>
 
   <ol>
     <li>Ruan Pezzin Miniguite</li>
@@ -70,7 +70,7 @@
     <li>Luan Eiriz Masioli</li>
   </ol>
 
-<h5>Theme</h5>
+<h4>Theme</h4>
 
   <ol>
     <li>Registration maintenance: (CRUD) Employee</li>
