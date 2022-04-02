@@ -1,21 +1,15 @@
 <!--  
     Ruan Pezzin Miniguite
-    V. 2.0 
-    Readme IFES projects 
+    V. 2.2 
 -->
 
 <!-- ============== HEADER ============== -->
 <div align="center" id="header">
-
-  <a href="https://cachoeiro.ifes.edu.br/">
-    <img src="https://media.discordapp.net/attachments/925719560039043083/925751679519981578/ifes_vila-velha-horizontal-pb.png?width=953&height=294" alt="Logo" width="330">
-  </a>
-  <h3 align="center">JavaFX-LavaJato</h3>
-  <p align="center">
-    Car Wash Management System
-  </p>
+  <a href="https://github.com/RuanMiniguite"><img src="/assets/Ifes.png" alt="Logo" width="450"></a>
+  
+  <h3>JavaFX-LavaJato</h3>
+  <p>Car Wash Management System</p>
 </div>
-
 
 
 <!-- ===== SUMARIO ===== -->
@@ -23,16 +17,14 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
-    <!-- <li><a href="#layout">Layout</a></li> -->
     <li><a href="#language-and-tools">Language and tools</a></li>
-    <!-- <li><a href="#implementation-ideas">Implementation ideas</a></li> -->
     <li><a href="#installation">Installation</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#author">Author</a></li>
   </ol>
 </details>
 
 ---
+
 
 
 <!-- ============== SHIELDS ============== -->
@@ -44,24 +36,14 @@
   [![GitHub License][GitHub License-shields]][GitHub License-link]
   [![Website][Website-shields]][Website-link]
 
-  <!-- <h4 align="center"> 
-    🚧  Project under construction...  🚧
-  </h4> -->
 </div>
+
 
 
 <!-- ============== ABOUT ============== -->
 ## About the project
 
-<!-- <div align="center">
-  <img src="https://media.discordapp.net/attachments/925787834638544956/925789165717717072/default.png?width=1214&height=683" width=80%>
-<br><br>
-
-  [![Site][Site-shields]][Site-link]
-</div> -->
-
 <h4>Group</h4>
-
   <ol>
     <li>Ruan Pezzin Miniguite</li>
     <li>Talis da Cunha Marchioro</li>
@@ -70,8 +52,8 @@
     <li>Luan Eiriz Masioli</li>
   </ol>
 
-<h4>Theme</h4>
 
+<h4>Theme</h4>
   <ol>
     <li>Registration maintenance: (CRUD) Employee</li>
     <li>Business Process: Vehicle Wash Service</li>
@@ -80,43 +62,23 @@
 
 
 
-
-
-<!-- ============== LAYOUT ============== -->
-<!-- ## Layout
-
-<div>
-
-  <img src="https://media.discordapp.net/attachments/925787834638544956/925790164939337778/default.png?width=388&height=683" width="25%">
-  <img src="https://media.discordapp.net/attachments/925787834638544956/925790164939337778/default.png?width=388&height=683" width="25%">
-
-</div> -->
-
-
 <!-- ============== LANGUAGE ============== -->
 ## Language and tools
 
-<h4>Front end</h4>
+#### Front end
+```
+> JavaFXML
+> Scene builder
+```
 
- <ol>
-    <li>JavaFXML</li>
-    <li>Scene builder</li>
-  </ol>
+#### Back end
+```
+> Java
+> SQL
+> Postgresql
+```
 
-<h4>Back end</h4>
- <ol>
-    <li>Java</li>
-    <li>SQL</li>
-    <li>Postgresql</li>
-  </ol>
-
-
-<!-- ============== IDEAS ============== -->
-<!-- ## Implementation ideas
-- [x] Example
-- [ ] Example -->
-
-
+<br>
 
 <!-- ============== INSTALLATION ============== -->
 ## Installation
@@ -139,15 +101,10 @@ Git Clone https://github.com/RuanMiniguite/JavaFX-LavaJato.git
 <!-- ============== LICENSE ============== -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 
-<!-- ============== AUTHOR ============== -->
-## Author
-
-Ruan Pezzin Miniguite <br> ruanminiguitecontato@gmail.com
-
-<p align="right">(<a href="#header">back to top</a>)</p>
+<br><p align="right">(<a href="#header">back to top</a>)</p>
 
 
 <!-- ============== LINKs ============== -->
